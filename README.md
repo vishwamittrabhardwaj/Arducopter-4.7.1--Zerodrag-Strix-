@@ -6,6 +6,20 @@ This repository provides a **community-built ArduCopter 4.7.1 firmware upgrade f
 
 The firmware has been built and tested specifically for the **ZeroDrag Strix FCU** and is provided so that other users of the same hardware can upgrade their FCU without having to build the firmware themselves.
 
+## Source Code
+
+This firmware was built from the official **ArduPilot 4.7.1** source with the ZeroDrag Strix hardware definition provided in this repository.
+
+The ZeroDrag-specific board definition used for the build is available here:
+
+`source/Zerodrag/hwdef.dat`
+
+The corresponding ArduPilot 4.7.1 source is available from the official ArduPilot project.
+
+The firmware files in this repository were built from that source and hardware definition, then flashed and tested on a ZeroDrag Strix FCU.
+
+This repository is an unofficial community build and is not an official release from ArduPilot or ZeroDrag.
+
 ## Firmware Version
 
 - **Flight Controller:** ZeroDrag Strix FCU
